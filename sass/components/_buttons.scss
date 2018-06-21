@@ -1,0 +1,21 @@
+.button {
+    color: $main-color;
+    background-color: $accent-color;
+    font-family: $main-font;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 17px 36px;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+
+    @media screen and(min-width: 992px) {
+        width: auto;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}
+

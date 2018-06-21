@@ -1,0 +1,59 @@
+/***Styles for sections headline***/
+.headline {
+    max-width: 730px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/***Section Features***/
+.features {
+    padding: 80px 0 40px;
+
+    @media screen and(min-width: 992px) {
+        padding: 120px 0 80px;
+    }
+}
+
+.features__list {
+    @include reset-list;
+    margin-top: 80px;
+}
+
+.features__item {
+    margin-bottom: 80px;
+    display: flex;
+
+    &:hover {
+        .feature__icon {
+            color: $accent-color;
+        }
+    }
+}
+
+.feature__icon {
+    margin-right: 35px;
+    @include transition;
+}
+
+/***Section Keep in touch***/
+.touch {
+    background-color: $main-color;
+    padding: 95px 0 55px;
+}
+
+.form {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.email {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    padding: 16px 25px;
+    width: 100%;
+    max-width: 580px;
+}
+
+
+

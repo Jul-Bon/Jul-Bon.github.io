@@ -1,0 +1,90 @@
+body {
+    font-family: $main-font;
+    color: $main-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/***Header***/
+.menu__item {
+    a {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+}
+
+.offer__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.offer__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.offer__description {
+    color: #555555;
+}
+
+.icon-list__item {
+    a {
+        font-size: 42px;
+    }
+}
+
+/***Styles for all sections***/
+.headline {
+    h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #313841;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.colorful {
+    h2 {
+        color: $accent-color;
+    }
+
+    p {
+        color: $text-color;
+    }
+}
+
+/***Section Features***/
+.feature__icon {
+    font-size: 50px;
+}
+
+.features__content {
+    h3 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    p {
+        color: $text-color;
+    }
+}
+
+/***Section Keep in Touch***/
+
+/***Footer***/
+.copyright {
+    color: $light-color;
+}
+
+.copyright__name {
+    text-transform: uppercase;
+}
